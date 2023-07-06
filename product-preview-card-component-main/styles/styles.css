@@ -6,22 +6,19 @@ body {
 .card {
     margin:auto;
     width: 50%;
-    border-radius: 2px;
-    border:1px solid;
+    /* border-radius: 2px; */
+    /* border:1px solid; */
     display:flex;
     flex-direction: row;
     justify-content:center;
     align-items: center;
     max-width: 1000px;
     min-width: 200px;
-    top: 50%;
+    max-height: 500px;
 }
 
-.perfume-image img {
-    width:100%;
-    height: 100%;
-    background-size:cover;
-    background-position: 50% 50%;
+.perfume-image {
+   width:50%;
 }
 
 .prices {
@@ -35,6 +32,7 @@ body {
 
 .product-title{
     padding-bottom: 1em;
+    font-size: 24px
 }
 
 .product-description {
@@ -52,6 +50,7 @@ body {
 
 .final-price {
     color:#08392B;
+    font-size: 24px;
 }
 
 .add-btn {
