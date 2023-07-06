@@ -1,5 +1,6 @@
 body {
     background: #F7E2C7;
+    font-family: 'Poppins';
 }
 
 .card {
@@ -59,4 +60,8 @@ body {
     padding: 1em;
     text-align: center;
     border-radius: 10px;
+}
+
+.noto {
+    font-family: 'Noto Serif', serif;
 }
