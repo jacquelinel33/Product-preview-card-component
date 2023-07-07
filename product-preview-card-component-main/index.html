@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS File -->
   <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <!-- Google Donts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@100&display=swap" rel="stylesheet">  
-<title>Frontend Mentor | Product preview card component</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+<title>Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -21,10 +20,9 @@
   </style>
 </head>
 <body>
-  <main>
   <div class="card">
-      <picture>
-        <img class="perfume-image" src="/Users/jacquelinelee/Desktop/code/Product-preview-card-component/product-preview-card-component-main/images/image-product-desktop.jpg">
+      <picture class="perfume-image">
+        <img src="images/image-product-mobile.jpg">
       </picture>
     <div class="product-content">
       <p class="product-type">PERFUME</p>
@@ -32,17 +30,16 @@
       <p class="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
       Perfumer-Creator for the House of CHANEL.</p>
       <div class="prices"> 
-        <div class="final-price noto">$149.99</div>
-        <sup class="og-price">$169.99</sup>
+        <p class="final-price noto">$149.99</p>
+        <p class="og-price">$169.99</p>
       </div>
       <button class="add-btn">Add to Card</button>
     </div>
   </div>
-  test
+
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
-  </main>
 </body>
 </html>
